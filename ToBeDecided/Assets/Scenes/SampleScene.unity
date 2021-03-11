@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ce1de6f87b12c4bbd2e5b852ec638c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 4955171875684799912, guid: 1e015d36cb1e13c4f958c76c4d7f038d,
+  gameManager: {fileID: 3697578774019663762, guid: 2df6ad98164e0a645a8ab2bd26f9ce82,
     type: 3}
 --- !u!20 &519420031
 Camera:

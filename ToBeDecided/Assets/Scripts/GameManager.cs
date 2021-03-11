@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
     public BoardManager boardScript;
-    private int level = 3; // gal nereikia
+    private int level = 3;
 
     void Awake()
     {
@@ -20,10 +20,10 @@ public class GameManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
         boardScript = GetComponent<BoardManager>();
-        InitGame(); // gal nereikia
+        InitGame();
     }
     
-    void InitGame() // gal nereikia
+    void InitGame()
     {
         boardScript.SetupScene(level);
     }
